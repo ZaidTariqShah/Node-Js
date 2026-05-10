@@ -1,0 +1,15 @@
+{
+  "name": "authentication_and_authorization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+ "scripts": {
+  "dev": "nodemon timemiddleware.js"
+},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
