@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
       const parsedData = JSON.parse(body);
       console.log(parsedData);
       const isValid = Validation(parsedData, res);
-      if (!isValid) res.end("Checking !Sign");
+      if (!isValid) return;
       res.writeHead(200, "Success", { "content-type": "application/json" });
       res.end(
         JSON.stringify({
