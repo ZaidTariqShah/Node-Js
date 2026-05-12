@@ -28,6 +28,6 @@ const server = http.createServer((req, res) => {
         }),
       );
     });
-  }
+  } else res.end("Route Not Found");
 });
 server.listen(9009, () => console.log("Running PORT 9009"));
